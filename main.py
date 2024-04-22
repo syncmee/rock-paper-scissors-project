@@ -1,4 +1,5 @@
 import random
+
 rock = '''
     _______
 ---'   ____)
@@ -39,7 +40,7 @@ if letter == "r" and random_rps == 0:
 elif letter == "r" and random_rps == 2:
   print(rps[random_rps])
   print("Its Scissors\nYou Win!")
-elif letter == "r" and random_rps == 2:
+elif letter == "r" and random_rps == 1:
   print(rps[random_rps])
   print("Its Paper\nYou Lose!")
 elif letter == "p" and random_rps == 0:
