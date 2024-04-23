@@ -32,7 +32,7 @@ user_input = input("Choose between Rock, Paper & Scissors\n")
 letter = user_input[0].lower()
 rps = [rock, paper, scissors]
 lenght_rps = len(rps)
-random_rps = random.randint(0, lenght_rps - 1)
+random_rps = random.randint(0, 2)
 
 if letter == "r" and random_rps == 0:
   print(rps[random_rps])
